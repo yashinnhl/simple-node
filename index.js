@@ -6,7 +6,7 @@ import { data } from './data/MOCK_DATA.json';
 const app = express();
 
 app.get("/", (req, res) => {
-  res.status(200).send("index");
+  res.status(200).send("index let's haev fun");
 });
 
 app.get("/home", (req, res) => {
