@@ -14,3 +14,7 @@ simple node
 ## adding Remote
 ```https://docs.github.com/en/free-pro-team@latest/github/using-git/adding-a-remote```
 
+## git config --global or --local
+
+``` git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com```
