@@ -1,12 +1,15 @@
 const http = require("http");
-const PORT = "8989";
+let PORT = process.env.PORT;
+if(PORT === null || PORT === ""){
+  PORT = "8989"
+}
 const express = require("express");
 import { data } from './data/MOCK_DATA.json';
 
 const app = express();
 
 app.get("/", (req, res) => {
-  res.status(200).send("index let's haev fun");
+  res.status(200).send("Wao your app is workinggggg");
 });
 
 app.get("/home", (req, res) => {
