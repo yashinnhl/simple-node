@@ -3,6 +3,7 @@ simple node
 
 ## add babel for es6
 
+<<<<<<< HEAD
 ```https://www.jcchouinard.com/add-a-file-to-github-with-git-bash/```
 
 
@@ -36,3 +37,6 @@ git pull --rebase origin master
 git push  origin master
 
 ```
+=======
+https://www.jcchouinard.com/add-a-file-to-github-with-git-bash/
+>>>>>>> added my project
