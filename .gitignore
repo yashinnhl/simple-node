@@ -2,3 +2,9 @@ node_modules
 
 .babelrc
 .dist
+
+npm-debug.log
+.DS_Store
+/*.env
+
+personal.md
