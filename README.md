@@ -18,3 +18,21 @@ simple node
 
 ``` git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com```
+
+```
+
+git init
+
+git remote add origin https://gitlab.com/crew-chief-systems/bot
+
+git remote -v (for checking current repository)
+
+git add -A(add all files)
+
+git commit -m 'Added my project'
+
+git pull --rebase origin master
+
+git push  origin master
+
+```
