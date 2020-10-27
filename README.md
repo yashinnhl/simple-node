@@ -3,8 +3,7 @@ simple node
 
 ## add babel for es6
 
-<<<<<<< HEAD
-```https://www.jcchouinard.com/add-a-file-to-github-with-git-bash/```
+```https://www.codementor.io/@iykyvic/writing-your-nodejs-apps-using-es6-6dh0edw2o```
 
 
 ## adding repo
