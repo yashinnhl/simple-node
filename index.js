@@ -1,8 +1,5 @@
 const http = require("http");
-let PORT = process.env.PORT;
-if(PORT === null || PORT === undefined || PORT === ""){
-  PORT = "8989"
-}
+let PORT = process.env.PORT || '8989';
 const express = require("express");
 import { data } from './data/MOCK_DATA.json';
 

@@ -3,14 +3,14 @@
 var _MOCK_DATA = require("./data/MOCK_DATA.json");
 
 var http = require("http");
-var PORT = process.env.PORT || '8989';
+var PORT = "8989";
 var express = require("express");
 
 
 var app = express();
 
 app.get("/", function (req, res) {
-  res.status(200).send("Wao your app is workinggggg");
+  res.status(200).send("index");
 });
 
 app.get("/home", function (req, res) {
