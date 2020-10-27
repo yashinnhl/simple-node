@@ -10,7 +10,7 @@
     "start-dev": "npm run build && nodemon dist/index.js"
   },
   "keywords": [
-    "node"
+    "node", "heroku"
   ],
   "author": "yasin",
   "license": "ISC",
