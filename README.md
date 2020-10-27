@@ -3,7 +3,7 @@ simple node
 
 ## add babel for es6
 
-```https://www.codementor.io/@iykyvic/writing-your-nodejs-apps-using-es6-6dh0edw2o```
+https://www.codementor.io/@iykyvic/writing-your-nodejs-apps-using-es6-6dh0edw2o
 
 
 ## adding repo
