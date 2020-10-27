@@ -1,6 +1,6 @@
 const http = require("http");
 let PORT = process.env.PORT;
-if(PORT === null || PORT === ""){
+if(PORT === null || PORT === undefined || PORT === ""){
   PORT = "8989"
 }
 const express = require("express");

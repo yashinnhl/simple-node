@@ -4,7 +4,7 @@ var _MOCK_DATA = require("./data/MOCK_DATA.json");
 
 var http = require("http");
 var PORT = process.env.PORT;
-if (PORT === null || PORT === "") {
+if (PORT === null || PORT === undefined || PORT === "") {
   PORT = "8989";
 }
 var express = require("express");
