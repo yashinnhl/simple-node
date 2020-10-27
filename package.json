@@ -9,6 +9,9 @@
     "start": "npm run build && node dist/index.js",
     "start-dev": "npm run build && nodemon dist/index.js"
   },
+  "engines": {
+    "npm": "6.x"
+  },
   "keywords": [
     "node", "heroku"
   ],
